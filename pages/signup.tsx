@@ -46,6 +46,15 @@ export default function Signup() {
         <button type="submit" className="bg-blue-500 text-white p-2 rounded">
           Sign Up
         </button>
+        <p className="text-center mt-4">
+          Already have an account?{" "}
+          <span
+            className="text-green-500 cursor-pointer"
+            onClick={() => router.push("/login")}
+          >
+            Login
+          </span>
+        </p>
       </form>
     </div>
   );
